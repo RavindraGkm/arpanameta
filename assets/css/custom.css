@@ -1,0 +1,22 @@
+p {
+    color: #ec971f;
+}
+
+@media (min-width: 768px) {
+    p {
+        color: #00f;
+    }
+}
+
+@media (min-width: 992px) {
+    p {
+        color: #0f0;
+    }
+}
+
+@media (min-width: 1200px) {
+    p {
+        color: #f00;
+    }
+}
+
