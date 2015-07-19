@@ -16,6 +16,7 @@
     .main{
         background-color: rgb(24, 21, 132);
         color: white;
+        height: 110px;
 
     }
 
@@ -26,6 +27,12 @@
         font-size: 35px;
     }
 
+    .main1
+    {
+      background-color: rgb(244, 239, 239);
+    }
+
+
     .login
     {
 
@@ -34,7 +41,68 @@
         border-left-width: 5px;
     }
 
+    .bodyclass
+{
+  background-color: #F2EFEF;
 }
+
+.images
+{
+  font-size: 18px;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.images1
+{
+  
+    padding-left: 62px;
+  padding-top: 25px;
+  margin: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.images2
+{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.images3
+{
+    margin-top: -6px;
+  margin-bottom: 0px;
+}
+
+.images4
+{
+  border: 0;
+  width: 495px;
+  height: 187px;
+  padding-top: 19px;
+}
+
+.formfeed
+{
+  padding-top: 20px;
+  padding-left: 60px;
+}
+
+.hello
+{
+  margin: 0px;
+}
+
+}
+}
+
+
+}
+
+
+
+
 
 
 .labels {
@@ -45,4 +113,5 @@
 .btn-info {
     background-color: #2E88A3;
     border: 1px solid #2E88A3;
+    height: 28px;
 }
