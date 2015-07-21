@@ -1,0 +1,198 @@
+@media(min-width: 1200px){
+
+	.container1
+	{
+		padding-left: 160px;
+		padding-top:  250px;
+		height: 562px;
+		position: relative;
+		background-color: pink;
+	}
+	
+
+	.tag11
+	{
+		margin-top: 0;
+  		margin-bottom: 5px;
+  		padding-left: 50px;
+  		font-size: 45px;
+  		
+	}
+
+	.tag12
+	{
+		margin-top: 0;
+  		margin-bottom: 5px;
+  		padding-left: 25px;
+  		font-size: 45px;
+	}
+
+	.tag13
+	{
+		padding-left: -100px;
+		margin-top: 0;
+  		margin-bottom: 5px;
+	}
+
+
+	.container11
+	{
+		height: 60px;
+  		background-color: rgb(19, 20, 102);
+  		padding-top: 0px;
+  		color: white;
+  		
+	}
+
+	.tag14
+	{
+		font-family: inherit;
+  		font-size: 20px;
+  		line-height: 1;
+  		width: 113px;
+  		height: 60px;
+  		background-color: rgb(19, 20, 102);
+  		border: none;
+  		padding-left: 0px;
+
+	}
+
+	.tag15
+	{	
+		font-family: inherit;
+		padding-left: 0px;
+  		font-size: 20px;
+  		line-height: 1;
+  		width: 105px;
+  		height: 60px;
+  		background-color: rgb(19, 20, 102);
+  		border: none;
+	}
+
+	.tag16
+	{
+		font-family: inherit;
+  		font-size: 20px;
+  		padding-left: 0px;
+  		line-height: 1;
+  		width: 113px;
+  		height: 60px;
+  		background-color: rgb(19, 20, 102);
+  		border: none;
+	}
+
+	.tag17
+	{
+		font-family: inherit;
+  		font-size: 20px;
+  		line-height: 1;
+  		width: 113px;
+  		height: 60px;
+  		background-color: rgb(19, 20, 102);
+  		border: none;
+	}
+
+	.tag18
+	{
+		font-family: inherit;
+  		font-size: 20px;
+  		line-height: 1;
+  		width: 113px;
+  		height: 60px;
+  		background-color: rgb(19, 20, 102);
+  		border: none;
+	}
+
+	.tag19
+	{
+		font-family: inherit;
+  		font-size: 20px;
+  		line-height: 1;
+  		width: 113px;
+  		height: 60px;
+  		background-color: rgb(19, 20, 102);
+  		border: none;
+	}
+
+	.tag110
+	{
+		font-family: inherit;
+  		font-size: 20px;
+  		line-height: 1;
+  		width: 113px;
+  		height: 60px;
+  		background-color: rgb(19, 20, 102);
+  		border: none;
+	}
+
+	.tag111
+	{
+		font-family: inherit;
+  		font-size: 20px;
+  		line-height: 1;
+  		width: 113px;
+  		height: 60px;
+  		background-color: rgb(19, 20, 102);
+  		border: none;
+	}
+
+	.positiondetails
+	{
+		
+  		position: absolute;
+  		left: 0px;
+  		bottom: 60px;
+	}
+
+	.positiondetails1
+	{
+		position: absolute;
+		left: 0px;
+		top: 60px;
+	}
+
+	.container2
+	{
+		background-color: orange;
+		height: 620px;
+		width: 100%;
+		position: relative;
+	}
+
+	.container3
+	{
+		background-color: white;
+		height: 620px;
+		position: relative;
+	}
+
+	.container4
+	{
+		background-color: green;
+		height: 620px;
+		position: relative;
+	}
+
+	.container5
+	{
+		background-color: white;
+		height: 620px;
+		position: relative;
+	}
+
+	.container6
+	{
+		background-color: orange;
+		height: 620px;
+		position: relative;
+	}
+
+	.container7
+	{
+		background-color: white ;
+		height: 620px;
+		position: relative;
+	}
+
+	
+}
