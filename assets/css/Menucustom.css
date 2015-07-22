@@ -6,3 +6,9 @@
   	text-decoration: none;
   	list-style-type: none;
 }
+
+.main-nav li {
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+}
