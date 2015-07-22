@@ -40,8 +40,9 @@
 		height: 60px;
   		background-color: rgb(19, 20, 102);
   		padding-top: 0px;
+  		width: 100%;
   		color: white;
-  		
+
 	}
 
 	.tag14
@@ -149,6 +150,7 @@
 		position: absolute;
 		left: 0px;
 		top: 60px;
+
 	}
 
 	.container2
