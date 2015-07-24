@@ -7,48 +7,33 @@
 {
 	
   	list-style-type: none;
-  	line-height: 20px;
   	margin: 0;
   	padding: 15px;
   	text-align: center;
+  	text-decoration: none;
+  	
+  	
+  }
+
+  .main-nav li
+  {
+  	display: inline-block;
   	position: relative;
-}
+  }
 
-.show {
-	position: absolute;
-	top: 100%;
-	left: 0;
+  .sub-nav
+  {
+  	list-style-type: none;
+  	margin: 0;
+  	padding: 15px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: none;	
+  	position: absolute;
+  }
 
-}
+  .main-nav:hover > .sub-nav 
+  {
+  	display: block;
+  }
 
-.sub-nav 
-{
-	display: inline-block;
-	margin-right: 10px;
-	position: relative;
-	font-size: 25px;
-}
-
-.sub-nav:hover .show{
-	display: block;
-}
-
-.sub-nav a
-{
-	text-decoration: none;
-
-
-}
-
-.sub-nav1 
-{
-	margin-right: 10px;
-	font-size: 25px;
-}
-
-.sub-nav1 a
-{
-	text-decoration: none;
-
-
-}
