@@ -1,0 +1,71 @@
+<html><head>
+    <title>
+        fb-page-recreated
+    </title>
+    <link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>
+                            Sr. No
+                        </th>
+                        <th>
+                            Name
+                        </th>
+                        <th>
+                            Address
+                        </th>
+                        <th>
+                            Action
+                        </th>
+                    </tr>
+                </thead>
+                <tbody class="student-info">
+                    <tr class="table-row template hidden"><td></td><td></td><td></td><td><button class="delete-student-row btn btn-danger">X</button></td></tr>
+                </tbody>
+            </table>
+            <button class="btn-add-rows btn btn-primary">Add new Row</button>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        var i=1;
+            $(".btn-add-rows").click(function() {
+                var row = $(".student-info .template").clone();
+                row.removeClass('hidden');
+                row.removeClass('template');
+                row.find('td').eq(0).html(i);
+                $(".student-info").append(row);
+                i++;
+                deleteRow();
+            });
+
+        function deleteRow () {
+            $(".delete-student-row").click(function() {
+                $(this).closest('.table-row').remove();
+
+                $(".table-row").each(function(i,d) {
+                    if(i!=0) {
+                        $(this).find('td').eq(0).html(i);
+                    }
+                });
+
+//                for(var i=1 ; i< $(".table-row").length ; i++ ) {
+//                    $(".table-row").eq(i).find('td').eq(0).html(i);
+//                }
+
+            });
+        }
+
+
+    });
+</script></body></html>
