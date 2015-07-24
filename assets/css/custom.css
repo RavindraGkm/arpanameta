@@ -1,11 +1,222 @@
-@media (min-width: 768px) {
+@media (max-width: 767px) {
 
     .main{
-        background-color: rgb(24, 21, 132);
+        background-color: #0D3290;;
         color: white;
         height: 110px;
 
     }
+
+    .logo
+    {  padding-left: 10%;
+        padding-top: 30px;
+        height: 100px;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .main1
+    {
+      background-color: #0D3290;;
+    }
+
+
+    .login
+    {
+
+        padding-top: 19px;
+        padding-left: 5px;
+        border-left-width: 5px;
+        border-radius: 5px;
+
+    }
+
+    .bodyclass
+    {
+       background-color: #0D3290;
+       position: relative;
+    }
+
+          .images
+      {
+        font-size: 13px;
+        display: none;
+        padding-top: 50px;
+        padding-left: 50px;
+        display: none;
+      }
+
+      .form-control
+      {
+        display: block;
+        width: 100%;
+        height: 28px;
+        padding: 6px 12px;
+        font-size: 15px;
+        line-height: 1.42857143;
+        color: #555;
+        background-color: #fff;
+        background-image: none;
+        border: 1px solid #ccc;
+        border-radius: 0px;
+      }
+
+      .images1
+      {
+        
+          padding-left: 62px;
+        padding-top: 20px;
+        margin: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+
+      .images2
+      {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 21px;
+        display: none;
+      }
+
+      .images3
+      {
+          margin-top: -6px;
+        margin-bottom: 0px;
+        font-size: 12px;
+        display: none;
+      }
+
+      .images4
+      {
+        border: 0;
+        display: none;
+        width: 375px;
+        height: 215px;
+        padding-top: 19px;
+      }
+
+      .formfeed
+      {
+        padding-top: 15px;
+        padding-left: 60px;
+        border-color: #rgb(187, 183, 211);
+        
+
+      }
+
+      .formfeed1
+      {
+          
+          
+        width: 100%;
+        height: 35px;
+        padding: 2px 4px;
+        font-size: 12px;
+        line-height: 1.42857143;
+        color: #555;
+        background-color: #fff;
+        background-image: none;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+
+      .hello5
+      {
+        margin: 0px;
+        display: none;
+      }
+
+      .idea1
+      {
+          width: 200px;
+          border-radius: 5px;
+        background-color: #409E40;
+      }
+
+      .keep
+      {
+          margin-top: 10px;
+          display: none;
+          margin-right: 8px;
+      }
+
+      .optbtn
+      {
+      font-size: 12px;
+      display: none;
+        line-height: 0;
+        margin-top: 10px;
+        padding-right: 0px;
+      }
+
+      .hello
+      {
+        margin: 0px;
+        display: none;
+        font-size: 13px;
+      }
+
+
+      .labels 
+      {
+          font-weight: normal;
+          display: none;
+          display: block;
+
+      }
+
+      .btn-info 
+      {
+          background-color: #2E88A3;
+          border: 1px solid #2E88A3;
+          height: 28px;
+      }
+
+      .sign-up
+      {
+        display: none;
+      }
+
+      .sign-up-xs
+      {
+        display: block;
+        text-align: center;
+      }
+
+      .sign-up-xs1
+      {
+        position: absolute;
+        bottom: 30px;
+        left: 30px;
+        color :white;
+        text-decoration: none;
+        display: hover;
+      }
+}
+
+
+
+
+
+<!------------small size--------------------!>
+
+
+@media (min-width: 768px) {
+
+    
+    .sign-up-xs
+    {
+      display: none;
+    }
+
+    .main
+    {
+        background-color: rgb(24, 21, 132);
+        color: white;
+        height: 110px;
+    }
+
 
     .logo
     {  padding-left: 10%;
@@ -26,6 +237,7 @@
         padding-top: 19px;
         padding-left: 5px;
         border-left-width: 5px;
+
 
     }
 
@@ -54,6 +266,7 @@
         background-image: none;
         border: 1px solid #ccc;
         border-radius: 0px;
+        margin: 0;
       }
 
       .images1
@@ -109,6 +322,7 @@
         background-image: none;
         border: 1px solid #ccc;
         border-radius: 5px;
+        margin-left: 0;
       }
 
       .hello5
@@ -173,6 +387,10 @@
         color: white;
         height: 110px;
 
+    }
+    .sign-up-xs
+    {
+      display: none;
     }
 
     .logo
@@ -344,6 +562,10 @@
         padding-top: 30px;
         height: 100px;
         font-size: 35px;
+    }
+    .sign-up-xs
+    {
+      display: none;
     }
 
     .main1
