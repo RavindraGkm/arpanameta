@@ -1,14 +1,46 @@
-.main-nav 
+.mybody
 {
-	background-color: aqua;
-  	font-size: 20px;
-  	display: inline;
-  	text-decoration: none;
-  	list-style-type: none;
+	margin: 0px;
 }
 
-.main-nav li {
+.main-nav 
+{
+	
+  	list-style-type: none;
+  	line-height: 20px;
+  	margin: 0;
+  	padding: 15px;
+  	text-align: center;
+  	position: relative;
+
+
+}
+
+.sub-nav 
+{
 	display: inline-block;
-	margin-left: 10px;
 	margin-right: 10px;
+	font-size: 25px;
+}
+
+.sub-nav a
+{
+	text-decoration: none;
+
+
+}
+
+.sub-nav1 
+{
+	display: none;
+	margin-right: 10px;
+	font-size: 25px;
+	position: absolute;
+}
+
+.sub-nav1 a
+{
+	text-decoration: none;
+
+
 }
