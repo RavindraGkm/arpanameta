@@ -1,0 +1,166 @@
+
+
+.main-menu
+{
+    float: right;
+    padding-right: 50px;
+    margin: 0;
+    padding-top: 10px;
+}
+
+
+.main-menu > li
+{
+    
+    list-style: none;
+    display: inline-block;
+    font-size: 17px;
+    position: relative;
+}
+
+.main-menu > li > a 
+{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.sub-menu
+{
+    width: 270px;
+    display: none;
+    position: absolute;
+    padding: 0;
+    border-top: solid 2px green;
+    background-color: white;
+    
+}
+
+
+.sub-menu > li 
+{
+    list-style: none;
+    display: block;
+    font-size: 15px;
+    border-bottom: solid 2px #EEE;
+    padding-top: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 6px;
+    position: relative;
+}
+
+.sub-menu > li > a 
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+
+}
+
+.sub-menu li:hover
+{
+    background-color: #EEE;
+    color: black
+
+}
+
+
+
+.main-menu li:hover .sub-menu
+
+{
+    display: block;
+}
+
+
+.sub-sub-menu
+{
+    width: 250px;
+    background-color: white;
+    display: none;
+    position: absolute;
+    left: 220px;
+    top: -2px;
+    border-top:solid 2px green;
+
+}
+
+.sub-sub-menu  li
+{
+    display: block;
+    font-size: 15px;
+    border-bottom: solid 2px #EEE;
+    text-transform: uppercase;
+    color: black;
+    list-style: none;
+    padding-top: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 6px;
+}
+
+.sub-sub-menu > li > a 
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+
+}
+    
+
+.sub-sub-menu li:hover
+{
+    background-color: #EEE;
+    color: black;
+    display: block;
+}
+
+.sub-menu li:hover .sub-sub-menu
+{
+    display: block;
+}
+
+.sub-sub-sub-menu
+{
+    width: 1000px;
+    background-color: white;
+    display: none;
+    position: absolute;
+    top: auto;
+    border-top:solid 2px green;
+    float: left;
+}
+
+.sub-sub-sub-menu li
+{
+    display: block;
+    font-size: 15px;
+    border-bottom: solid 2px #EEE;
+    text-transform: uppercase;
+    color: black;
+    list-style: none;
+}
+
+.sub-sub-sub-menu > li > a 
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+
+}
+
+.sub-sub-sub-menu li:hover
+{
+    background-color: #EEE;
+    color: black;
+    display: block;
+}
+
+.main-menu li:hover .sub-sub-sub-menu
+{
+    display: block;
+}
