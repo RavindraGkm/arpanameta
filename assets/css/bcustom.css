@@ -77,8 +77,7 @@
 }
 
 
-.sub-sub-menu
-{
+.sub-sub-menu {
     width: 250px;
     background-color: white;
     display: none;
@@ -86,7 +85,6 @@
     left: 100%;
     top: -2px;
     border-top:solid 2px green;
-
 }
 
 .sub-sub-menu  li
@@ -122,6 +120,7 @@
 .sub-menu li:hover .sub-sub-menu
 {
     display: block;
+    padding: 0;
 }
 
 .sub-sub-sub-menu
