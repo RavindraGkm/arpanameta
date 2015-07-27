@@ -1,6 +1,6 @@
 .mybody
 {
-	margin: auto;
+	margin: 0;
 }
 
 .logo
@@ -17,19 +17,22 @@
 
 }
 
-.menu li
-{
-	text-decoration: none;
-	display: inline-block;
-}
-
 
 .head-menu
 {
 	
 	border-left: solid;
 	border-left: 1px;
-	padding-top: 10px;
+	padding-top: 5px;
+	padding-right: 1px;
+	margin: 0;
+
+}
+
+.head-menu li 
+{
+	display: inline-block;
+	
 }
 
 
@@ -41,92 +44,289 @@
   	font-size: 11px;
   	text-transform: uppercase;
   	color: black;
+  	position: relative;
+  	padding-bottom: 3px;
+  	padding-top: 3px;
+  	
 }
 
 
 
-.main-menu li
+.head-sub-menu
 {
-	position: relative;	
+	display: none;
+	position: absolute;
+	width: 100px;
+	padding: 0;
+	background-color: #E4E4E4;
+	border-top: 2px solid #E4E4E4;
+	border-bottom: 2px solid #E4E4E4;
 
 }
 
-.main-menu  li  a 
+.icon1
 {
-	color: black;
-  	text-decoration: none;
-  	padding-top: 9px;
-  	padding-bottom: 5px;
-  	padding-left: 20px;
-  	padding-right: 20px;
-  	font-size: 16px;
-  	text-transform: uppercase;
-  	border-bottom: solid 1px #eee;
+	position: absolute;
+	top: -6px;
+	color: #E4E4E4;
+	padding-left: 15px;
+	line-height: 20px;
+	font-size: 15px;
 }
 
+
+.active1
+{
+	background-color: #F0F0F0;
+	width: 100%;
+}
+
+.icon-right
+{
+	float: right;
+	font-size: 6px;
+	padding-right: 15px;
+	color: #B7AFAF;
+}
+
+.icon-right1
+{
+  float: right;
+  font-size: 6px;
+  color: #B7AFAF;
+}
+
+.head-sub-menu
+{
+    z-index: 1;
+}
+
+.head-sub-menu li
+{
+	text-decoration: none;
+	list-style: none;
+	display: block;
+	border: 1px solid #E4E4E4;
+}
+
+.head-sub-menu li a 
+{
+	font-size: 10px;
+}
+
+
+.head-sub-menu li:hover
+{
+	background-color: #F0F0F0;
+
+}
+
+
+.head-menu li:hover .head-sub-menu 
+{
+	display: block;
+
+}
+
+.main-menu
+{
+    float: right;
+    margin: 0;
+    padding-top: 10px;
+    z-index: 2;
+
+}
+
+
+.main-menu > li
+{
+    
+    list-style: none;
+    display: inline-block;
+    font-size: 17px;
+    position: relative;
+
+}
+
+
+.main-menu > li > a 
+{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 
 .sub-menu
 {
-	display: inline-block;
-	position: absolute;
-	background-color: white;
-	padding: 0;
-	border-bottom: solid 1px #eee;
-	height: 20px;
-}
-
-.sub-menu  li 
-{
-	display: block;
-	position: relative;
-	margin: 0;
-	font-size: 100px;
-}
-
-.main-menu li a:hover
-{
-	
-	color: green;
-	background-color: #eee;
-}
-
-.main-menu li:hover  .sub-menu
-{
-	display: block;
-}
-
-.sub-sub-menu
-{
-
-	position: absolute;
-	top:0;
-	left:50px;
-	display: none;
-	background-color: white;
-	border: solid green 1px;
-	line-height: 20px;
-	height: 20px;
-	
-}
-
-.sub-sub-menu li 
-{
-	display: block;
+    width: 200px;
+    display: none;
+    position: absolute;
+    padding: 0;
+    border-top: solid 2px green;
+    border-bottom: solid 2px #716F6F;
+    background-color: white;
+    
 }
 
 
-.sub-sub-menu li a:hover
+.sub-menu > li 
 {
-	color: green;
+    list-style: none;
+    display: block;
+    font-size: 13px;
+    border-bottom: solid 2px #EEE;
+    padding-top: 4px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 4px;
+    position: relative;
+}
+
+.sub-menu > li > a 
+{
+    text-decoration: none;
+    color: black;
+
+}
+
+.sub-menu li:hover
+{
+    background-color: #EEE;
+    color: black
+
+}
+
+.main-menu li:hover .sub-menu
+
+{
+    display: block;
+}
+
+.sub-sub-menu {
+    width: 230px;
+    background-color: white;
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: -2px;
+    border-top:solid 2px green;
+    border-bottom: solid 2px #716F6F;
+}
+
+.sub-sub-menu  li
+{
+    display: block;
+    font-size: 13px;
+    border-bottom: solid 2px #EEE;
+    color: black;
+    list-style: none;
+    padding-top: 4px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 4px;
+}
+
+.sub-sub-menu > li > a 
+{
+    text-decoration: none;
+    color: black;
+
+}
+    
+
+.sub-sub-menu li:hover
+{
+    background-color: #EEE;
+    color: black;
+    display: block;
 }
 
 .sub-menu li:hover .sub-sub-menu
 {
-	display: block;
-	margin-left: 50px;
+    display: block;
+    padding: 0;
 }
 
-.format
+.sc-sub-menu
 {
-	padding: 20px;
+    width: 1000px;
+    height: 470px;
+    display: none;
+    position: absolute;
+    padding-left: 15px;
+    border-top: solid 2px green;
+    border-bottom: solid 2px #716F6F;
+    background-color: white;
+    right: 0;
+
+       
+}
+.mydiv
+{
+    
+    border-left:  1px solid  #EEE;
+    height: 465px;
+    padding: 0;
+    width: 250px;
+    line-height: 20px;
+    font-size: 20px;
+}
+.sc-sub-sub-menu
+{
+    
+    border-collapse: collapse;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+}
+
+
+.sc-sub-sub-menu > li 
+{
+    list-style: none;
+    display: block;
+    font-size: 13px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin-top: 4px;
+    position: relative;
+
+}
+
+.sc-sub-sub-menu > li > a 
+{
+    text-decoration: none;
+    color: black;
+
+}
+.sc-sub-sub-menu li:hover
+{
+    background-color: #EEE;
+    color: black;
+    display: block;
+}
+
+
+.main-menu li:hover .sc-sub-menu
+{
+    display: inline-block;
+}
+
+
+.text
+{
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+
+.bgimage
+{
+    background-image: url(assets/images/bg.jpg);
+    height: 426px;
 }
