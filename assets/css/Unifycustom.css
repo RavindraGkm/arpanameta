@@ -327,6 +327,6 @@
 
 .bgimage
 {
-    background-image: url(assets/images/bg.jpg);
+    background-image: url(../images/bg.jpg);
     height: 426px;
 }
