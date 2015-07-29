@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e268ac51-3c2c-491b-8632-71522128d9cb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/bootstrap-datepicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/date-picker.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/datepicker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dock.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/proto.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/bg-hero.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/bg-pattern.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ph/php-1.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ph/php-2.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ph/php-3.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ph/web-form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ph/web-form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resume.html" afterPath="$PROJECT_DIR$/Resume.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/Unifycustom.css" afterPath="$PROJECT_DIR$/assets/css/Unifycustom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/resumecustom.css" afterPath="$PROJECT_DIR$/assets/css/resumecustom.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="arpanameta.iws" />
@@ -34,21 +37,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="dock.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dock.html">
+      <file leaf-file-name="web-form.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ph/web-form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.43408787" vertical-offset="31" max-vertical-offset="782">
-              <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+            <state vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="408">
+              <caret line="7" column="43" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demo--js.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo--js.html">
+      <file leaf-file-name="web-form.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ph/web-form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="629">
-              <caret line="13" column="70" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="70" />
+            <state vertical-scroll-proportion="0.15845539" vertical-offset="0" max-vertical-offset="751">
+              <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+              <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+              <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -77,6 +83,13 @@
         <option value="$PROJECT_DIR$/assets/js/proto.js" />
         <option value="$PROJECT_DIR$/date-picker.html" />
         <option value="$PROJECT_DIR$/dock.html" />
+        <option value="$PROJECT_DIR$/assets/css/resumecustom.css" />
+        <option value="$PROJECT_DIR$/Resume.html" />
+        <option value="$PROJECT_DIR$/ph/php-1.php" />
+        <option value="$PROJECT_DIR$/ph/php-2.php" />
+        <option value="$PROJECT_DIR$/ph/php-3.php" />
+        <option value="$PROJECT_DIR$/ph/web-form.html" />
+        <option value="$PROJECT_DIR$/ph/web-form.php" />
       </list>
     </option>
   </component>
@@ -140,7 +153,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
+              <option name="myItemId" value="ph" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -154,6 +167,7 @@
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Applications/AMPPS/www/arpanameta/ph/php-1.php" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -532,8 +546,75 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dock.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43408787" vertical-offset="31" max-vertical-offset="782">
+        <state vertical-scroll-proportion="-12.538462" vertical-offset="31" max-vertical-offset="782">
           <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/resumecustom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1462">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ph/php-1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2942743" vertical-offset="0" max-vertical-offset="751">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resume.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.04527297" vertical-offset="0" max-vertical-offset="751">
+          <caret line="2" column="17" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ph/php-3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8415446" vertical-offset="99" max-vertical-offset="850">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ph/php-2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06790946" vertical-offset="0" max-vertical-offset="751">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/web-forms2.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.4710425" vertical-offset="9941" max-vertical-offset="14212">
+          <caret line="652" column="16" selection-start-line="652" selection-start-column="16" selection-end-line="652" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ph/web-form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="408">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ph/web-form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15845539" vertical-offset="0" max-vertical-offset="751">
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
           <folding />
         </state>
       </provider>
