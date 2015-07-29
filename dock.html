@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        .diva {
+            background-color: #171717;
+            width: 100px;
+            position: fixed;
+            top: 100px;
+            left: -250px;
+            height: 100px;
+            transition: all 0.5s;
+            -webkit-transition: all 0.5s;
+            -o-transition: all 0.5s;
+            -moz-transition: all 0.5s;
+        }
+        body {
+            margin: 0;
+        }
+        .diva-open {
+            left: 0px !important;
+        }
+    </style>
+</head>
+<body>
+    <div class="diva">
+
+    </div>
+    <button id="cl">Click me</button>
+</body>
+</html>
+<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("#cl").click(function() {
+            $(".diva").toggleClass('diva-open');
+        });
+    });
+</script>
