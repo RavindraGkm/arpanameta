@@ -1,13 +1,13 @@
 .bg 
 {
-	background-image: url('C:/xampp/htdocs/arpanameta/assets/images/bg-hero.jpg');
+	background-image: url('../images/bg-hero.jpg');
 	height: 100%;
 	position: relative;
 }
 
 .overlap
 {
-	background-image: url('C:/xampp/htdocs/arpanameta/assets/images/bg-pattern.png');
+	background-image: url('../images/bg-pattern.png');
 	width: 100%;
 	height: 100%;
 	position: absolute;
@@ -119,13 +119,6 @@
 	text-align: justify;
 }
 
-.profile-text4
-{
-	float: left;
-	color: #a1a1a1;
-	text-align: justify;
-	font-size: 15px;
-}
 
 .profile-text5
 {
@@ -184,4 +177,171 @@
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+
+.portfolio-section
+{
+	height: 100%;
+	background-color: #0d0c0d;
+	position: relative;
+}
+
+.myportdiv
+{
+	position: absolute;
+	top: 15%;
+	width: 100%;
+
+}
+
+.portfolio-text1
+{
+	color: white;
+	text-align: center;
+	line-height: 30px;
+	font-size: 40px;
+	letter-spacing: 1;
+}
+
+.portfolio-text2
+{
+	color: #a1a1a1;
+	font-size: 15px;
+	text-align: center;
+	letter-spacing: 1;
+}
+
+.portfolio-line
+{
+	width: 15%;
+}
+
+.myportdiv1
+{
+	width: 100%;
+	position: relative;
+	top: 70%;
+}
+
+.myportdiv1-1
+{
+	background-color: red;
+	height: 300px;
+}
+
+.myportdiv1-2
+{
+	background-color: pink;
+	height: 300px;
+}
+
+.myportdiv1-3
+{
+	background-color: green;
+	height: 300px;
+}
+
+.myportdiv1-4
+{
+	background-color: yellow;
+	height: 300px;
+}
+
+.service-section
+{
+	height: 100%;
+	background-color: #0d0c0d;
+	position: relative;
+}
+
+.myserdiv
+{
+	width:100%;
+	height: 100%;
+	position: absolute;
+	top: 15%;
+}
+
+
+.service-text1
+{
+	color: white;
+	text-align: center;
+	line-height: 30px;
+	font-size: 40px;
+	letter-spacing: 2;	
+}
+
+.service-text2
+{
+	color: #a1a1a1;
+	font-size: 15px;
+	text-align: center;
+	letter-spacing: 1;
+}
+
+.service-line
+{
+	width: 15%;
+}
+
+.myserdiv1
+{
+	padding-left: 100px;
+	padding-right: 100px;
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	height: 250px;
+	text-align: center;
+}
+
+.myserdiv1-1
+{
+	background-color: #0d0c0d;
+	height: 250px;
+}
+
+.myserdiv1-2
+{
+	background-color:  #0d0c0d;
+	height: 250px;
+}
+
+.myserdiv1-3
+{
+	background-color: #0d0c0d;
+	height: 250px;
+}
+
+
+.myserdiv2
+{
+	padding-left: 100px;
+	padding-right: 100px;
+	position: absolute;
+	top: 82%;
+	width: 100%;
+	height: 200px;
+	text-align: center;
+	
+}
+
+.myserdiv2-1
+{
+	background-color:  #0d0c0d;
+	height: 200px;
+}
+
+.myserdiv2-2
+{
+	background-color: #0d0c0d;
+	height: 200px;
+}
+
+.myserdiv2-3
+{
+	background-color:  #0d0c0d;
+	height: 200px;
 }
