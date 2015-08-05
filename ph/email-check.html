@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <form action="form1.php" method="GET">
+                    <div id="alert_email_exists" class="hidden alert alert-warning alert-dismissible" role="alert">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        Email exists. Please type another email
+                    </div>
+                    <div class="form-group">
+                        <label>Enter your email</label>
+                        <input id="user_email" class="form-control" name="user_email" />
+                    </div>
+                    <div class="form-group">
+                        <label>Enter First Name</label>
+                        <input id="FName" class="form-control" name="FName" />
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-default" type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script type="text/javascript" src="../assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="../assets/js/email-check.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        EmailCheck.init();
+    });
+</script>
