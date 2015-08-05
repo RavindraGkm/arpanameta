@@ -2,7 +2,7 @@
 require_once('classes/Database.php');
 
 $object = new Database();
-$info['st_name']='Ram Sharma';
-$info['st_address']='Jaipur';
+$info['st_name']=$_POST['Student_Name'];
+$info['st_address']=$_POST['Student_Address'];
 $object->insert_student_record($info);
 ?>
