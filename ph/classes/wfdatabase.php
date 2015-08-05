@@ -6,7 +6,11 @@ class wfdatabase {
     const DB_NAME = "wfdatabase";
     const DB_HOST="localhost";
     const DB_USER = "root";
+<<<<<<< HEAD
     const DB_PASSWORD = "root";
+=======
+    const DB_PASSWORD = "";
+>>>>>>> 60fb198e4ddf7284c3c4e46bdd413454df1e9a24
     const DB_TYPE = "mysql";
 
     function __construct() {
@@ -15,7 +19,11 @@ class wfdatabase {
 
     function add_information ($info) {
 
+<<<<<<< HEAD
         $statement = $this->database_object->prepare("insert into `information` (`fname`,`lname`,`age`,`date`,`gender`,`address`,`email`) values (:fname,:lname,:age,:date,:gender,:address,:email)");
+=======
+        $statement = $this->database_object->prepare("insert into `information` (`fname`,`lname`,`age`,`date',`gender`,`address`,`email`) values (:fname,:lname,:age,:date,:gender,:address,:email)");
+>>>>>>> 60fb198e4ddf7284c3c4e46bdd413454df1e9a24
         $statement->bindParam(":fname",$info['FName']);
         $statement->bindParam(":lname",$info['LName']);
         $statement->bindParam(":age",$info['Age']);
@@ -27,6 +35,7 @@ class wfdatabase {
             print_r($info);
         }
     }
+<<<<<<< HEAD
 
     function get_all_information () {
         $statement = $this->database_object->prepare("select * from `information`");
@@ -56,5 +65,7 @@ class wfdatabase {
         return $response;
     }
 
+=======
+>>>>>>> 60fb198e4ddf7284c3c4e46bdd413454df1e9a24
 }
 ?>

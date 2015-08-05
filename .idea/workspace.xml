@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e268ac51-3c2c-491b-8632-71522128d9cb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/bg-strenghts.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ph/ajax.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ph/display-info.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ph/email-check.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/email-check.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ph/get-results-ajax.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ph/classes/wfdatabase.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resume.html" afterPath="$PROJECT_DIR$/Resume.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-1.html" afterPath="$PROJECT_DIR$/demo-1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo.html" afterPath="$PROJECT_DIR$/demo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ph/form-validations.html" afterPath="$PROJECT_DIR$/ph/form-validations.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ph/form1.html" afterPath="$PROJECT_DIR$/ph/form1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ph/form1.php" afterPath="$PROJECT_DIR$/ph/form1.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/resumecustom.css" afterPath="$PROJECT_DIR$/assets/css/resumecustom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ph/classes/wfdatabase.php" afterPath="$PROJECT_DIR$/ph/classes/wfdatabase.php" />
     </list>
     <ignored path="arpanameta.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,10 +28,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="email-check.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="form1.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ph/form1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.2223701" vertical-offset="0" max-vertical-offset="1598">
+              <caret line="120" column="53" selection-start-line="120" selection-start-column="53" selection-end-line="120" selection-end-column="53" />
+              <folding>
+                <element signature="n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="email-check.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/email-check.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6061776" vertical-offset="141" max-vertical-offset="1037">
+            <state vertical-scroll-proportion="0.0" vertical-offset="141" max-vertical-offset="1037">
               <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
               <folding />
             </state>
@@ -74,12 +73,12 @@
       <file leaf-file-name="wfdatabase.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ph/classes/wfdatabase.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.076923" vertical-offset="14" max-vertical-offset="1105">
-              <caret line="30" column="32" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="32" />
+            <state vertical-scroll-proportion="-19.076923" vertical-offset="167" max-vertical-offset="1292">
+              <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
               <folding>
-                <marker date="1438743689000" expanded="true" signature="509:650" placeholder="insert into ..." />
-                <marker date="1438743689000" expanded="true" signature="1219:1246" placeholder="select * fro..." />
-                <marker date="1438743689000" expanded="true" signature="1558:1606" placeholder="select * fro..." />
+                <marker date="1438746863000" expanded="true" signature="24:2532" placeholder="..." />
+                <marker date="1438746863000" expanded="true" signature="1026:1167" placeholder="insert into ..." />
+                <marker date="1438746863000" expanded="true" signature="1599:1626" placeholder="select * fro..." />
               </folding>
             </state>
           </provider>
@@ -150,13 +149,13 @@
         <option value="$PROJECT_DIR$/ph/classes/Database.php" />
         <option value="$PROJECT_DIR$/ph/db.php" />
         <option value="$PROJECT_DIR$/ph/web-form.php" />
-        <option value="$PROJECT_DIR$/ph/form1.html" />
         <option value="$PROJECT_DIR$/ph/display-info.php" />
         <option value="$PROJECT_DIR$/ph/classes/wfdatabase.php" />
         <option value="$PROJECT_DIR$/ph/email-check.html" />
         <option value="$PROJECT_DIR$/ph/ajax.php" />
         <option value="$PROJECT_DIR$/ph/get-results-ajax.html" />
         <option value="$PROJECT_DIR$/assets/js/email-check.js" />
+        <option value="$PROJECT_DIR$/ph/form1.html" />
       </list>
     </option>
   </component>
@@ -595,16 +594,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ph/form1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.0" vertical-offset="31" max-vertical-offset="1598">
-          <caret line="77" column="73" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="73" />
-          <folding>
-            <element signature="n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/my-js.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
@@ -701,12 +690,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ph/classes/wfdatabase.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.076923" vertical-offset="14" max-vertical-offset="1105">
-          <caret line="30" column="32" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="32" />
+        <state vertical-scroll-proportion="-19.076923" vertical-offset="167" max-vertical-offset="1292">
+          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
           <folding>
-            <marker date="1438743689000" expanded="true" signature="509:650" placeholder="insert into ..." />
-            <marker date="1438743689000" expanded="true" signature="1219:1246" placeholder="select * fro..." />
-            <marker date="1438743689000" expanded="true" signature="1558:1606" placeholder="select * fro..." />
+            <marker date="1438746863000" expanded="true" signature="24:2532" placeholder="..." />
+            <marker date="1438746863000" expanded="true" signature="1026:1167" placeholder="insert into ..." />
+            <marker date="1438746863000" expanded="true" signature="1599:1626" placeholder="select * fro..." />
           </folding>
         </state>
       </provider>
@@ -729,9 +718,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/email-check.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6061776" vertical-offset="141" max-vertical-offset="1037">
+        <state vertical-scroll-proportion="0.0" vertical-offset="141" max-vertical-offset="1037">
           <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ph/form1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.2223701" vertical-offset="0" max-vertical-offset="1598">
+          <caret line="120" column="53" selection-start-line="120" selection-start-column="53" selection-end-line="120" selection-end-column="53" />
+          <folding>
+            <element signature="n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
