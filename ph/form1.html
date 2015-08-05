@@ -1,31 +1,155 @@
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+
+<link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="assets/css/datepicker.css">
 </head>
 <body>
+  <form action="form1.php" method="GET">
+    <div class="form-group">
 
-	<div>
+                    </div><div class="form-group col-lg-8">
+                        
+                        <label>Enter First Name</label>
+                        
+                        <input id="FName" class="form-control" name="FName" />
+                    
+                    </div>
+                    
+                    <div class="form-group col-lg-8">
+                    
+                        <label>Enter Last Name</label>
+                    
+                        <input id="LName" class="form-control" name="LName" />
+                    
+                    </div>
 
-		<form action="db.php" method="POST">
-			<label>Studen Name</label>
-			<input class="form control" name="Student_Name"/>
+                    <div class="form-group col-lg-8">
+                    
+                        <label>Enter Age</label>
+                    
+                        <input id="Age" class="form-control" type="number" name="Age" />
+                    
+                    </div>
 
-			<br/>
-			<br/>
-		
-			<label>Addres</label>
-			<input class="form control" name="Student_Address"/>
+                    <div class="form-group col-lg-8">
+                    
+                        <label>Enter Date</label>
+                    
+                        <input type="text" id="user_age" name="DOB" class="date-picker form-control"/>
+                    
+                    </div>
 
-			<br/>
-			<br/>
+                    <div class="form-group col-lg-8">
+                    
+                        <input type="radio" name="Gender" value="Male" checked/>Male
+        
+                        <input type="radio" name="Gender" value="Female"/>Female
+
+                    </div>
+
+                    <div class="form-group col-lg-8">
+                    
+                        <label>Enter Address</label>
+                    
+                        <input id="Address" class="form-control" type="text" name="Address" />
+                    
+                    </div>
+
+                    <div class="form-group col-lg-8">
+                    
+                        <label>Enter Email Address</label>
+                    
+                        <input id="Email" class="form-control" type="email" name="Email" />
+                    
+                    </div>
+
+                    <div class="form-group col-lg-8">
+
+                      <button class="btn btn-default" type="submit">Submit</button>
+                                      
+                    </div>
 
 
-			<button class="btn btn-default" type="submit">Submit</button>
-
-
-		</form>
-
-
-	</div>
+  </form>
 </body>
 </html>
+
+<script type="text/javascript" src="../assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="../assets/js/Validate.min.js"></script>
+
+<script type="text/javascript" src="../assets/js/bootstrap-datepicker.js"></script>
+<script type="text/javascript" src="../assets/js/proto.js"></script>
+<script type="text/javascript" src="../assets/js/proto2.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+
+        object.pageLoadInitializations();
+
+        $('.login-form').validate({
+            rules: {
+                FName: {
+                    required: true
+                },
+                LName: {
+                    required: true
+                }
+                Age{
+                    required:true
+                }
+                DOB{
+                    required:true
+                }
+                Gender{
+                    required:true
+                }
+                Address{
+                    required:true
+                }
+                Email{
+                    required:true
+                }
+            },
+            messages: {
+
+                FName: {
+                    required: "First Name IS required"
+                },
+                LName: {
+                    required: "Last Name is required"
+                }
+                Age{
+                    required:"Age is required"
+                }
+                DOB{
+                    required:"Enter your Date of Birth"
+                }
+                Gender{
+                    required:"Select your Gender"
+                }
+                Address{
+                    required:"Enter your Address"
+                }
+                Email{
+                    required:"Email is required"
+                }
+                
+            },
+            errorPlacement: function(error, element) {
+                $( element ).closest( "form" ).find( "label[for='" + element.attr( "id" ) + "']" ).append( error );
+            },
+            highlight: function (element) {
+                $(element).closest('.form-group').addClass('has-error');
+            },
+            unhighlight: function (element) {
+                $(element).closest('.form-group').removeClass('has-error');
+            },
+            submitHandler: function (form) {
+                form.submit();
+            }
+        });
+        
+});
+</script>
