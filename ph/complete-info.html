@@ -7,55 +7,46 @@
     <link rel="stylesheet" type="text/css" href="assets/css/datepicker.css">
 
 </head>
-    <style type="text/css">
-        .error {
-            font-weight: normal;
-        }
-    </style>
+<style type="text/css">
+    .error {
+        font-weight: normal;
+    }
+</style>
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-5">
-                <form class="login-form">
-                    <div class="form-group">
-                        <label class="yo">Enter Name</label>
-                        <input id="Name" class="form-control" name="Name" />
-                    </div>
-                    <div class="form-group">
-                        <label class="yo" >Enter Age</label>
-                        <input id="Age" class="form-control" name="Age" />
-                    </div>
-
-
-                    <div class="col-lg-3">
-            			<input type="text" id="user_age"  class="date-picker form-control"/>
-
-        			</div>
-
-        			<br/>
-        			<br/>
-        			<br/>
-
-                    <div class="form-group">
-
-                    	<input type="radio" name="gender" value="Male" checked/>Male
-        				<input type="radio" name="gender" value="Female"/>Female                  
-                    </div>
-
-                    <div class="form-group">
-                        <label class="yo" >Enter Address</label>
-                        <input  class="form-control" name="Address" />
-                    </div>
-
-
-                    <div class="form-group">
-                        <button class="btn btn-primary" type="submit">Login</button>
-                    </div>
-                </form>
-            </div>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-5">
+            <form class="login-form">
+                <div class="form-group">
+                    <label class="yo">Enter Name</label>
+                    <input id="Name" class="form-control" name="Name" />
+                </div>
+                <div class="form-group">
+                    <label class="yo" >Enter Age</label>
+                    <input id="Age" class="form-control" name="Age" />
+                </div>
+                <div class="col-lg-3">
+                    <input type="text" id="user_age"  class="date-picker form-control"/>
+                </div>
+                <br/>
+                <br/>
+                <br/>
+                <div class="form-group">
+                    <input type="radio" name="gender" value="Male" checked/>Male
+                    <input type="radio" name="gender" value="Female"/>Female
+                </div>
+                <div class="form-group">
+                    <label class="yo" >Enter Address</label>
+                    <input  class="form-control" name="Address" />
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-primary" type="submit">Login</button>
+                </div>
+            </form>
         </div>
     </div>
+</div>
 </body>
 <script type="text/javascript" src="../assets/js/jquery.min.js"></script>
 <script type="text/javascript" src="../assets/js/jquery.validate.min.js"></script>
@@ -65,9 +56,8 @@
 
 <script type="text/javascript">
     $(document).ready(function () {
-       Login.init();
-
-       object.pageLoadInitializations();
+        Login.init();
+        object.pageLoadInitializations();
         object.eventInitializations();
 
     });
