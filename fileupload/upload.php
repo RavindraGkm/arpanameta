@@ -27,7 +27,7 @@ if( isset( $_POST['image_upload'] ) && !empty( $_FILES['images'] )){
   $image_size = $image["size"] / 1024;
   $image_flag = true;
   //max image size
-  $max_size = 512;
+  $max_size = 1000;
   if( in_array($ext, $allowedExts) && $image_size < $max_size ){
     $image_flag = true;
   } else {

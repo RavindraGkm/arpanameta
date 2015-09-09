@@ -3,6 +3,10 @@ function CustomJS() {
 }
 
 CustomJS.prototype = {
+    init: function() {
+        this.pageLoadInitializations();
+        this.eventInitializations();
+    },
     pageLoadInitializations: function() {
         $('.date-picker').datepicker({
             autoclose: true,
@@ -28,3 +32,4 @@ CustomJS.prototype = {
     }
 }
 var object = new CustomJS();
+object.init();
