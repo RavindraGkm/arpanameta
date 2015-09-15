@@ -5,7 +5,7 @@
   <title></title>
 </head>
 <body>
-<form enctype="multipart/form-data" name='imageform' role="form" id="imageform" method="post" action="upload.php">
+<div enctype="multipart/form-data" name='imageform' role="form" id="imageform" method="post" action="upload.php">
   <div class="form-group">
     <p>Please Choose Image: </p>
     <input class='file' type="file" class="form-control" name="images" id="images" placeholder="Please choose your image">
@@ -15,14 +15,14 @@
     Please wait image uploading to server....
   </div>
   <input type="submit" value="Upload" name="image_upload" id="image_upload" class="btn"/>
-</form>
+</div>
 </body>
 </html>
 <script type="text/javascript" src="../assets/js/jquery.min.js"></script>
 <script type="text/javascript" src="jquery.form.min.js"></script>
 <script type="text/javascript">
   (function() {
-    $('form').ajaxForm({
+    $('#imageform').ajaxForm({
       beforeSubmit: function() {
         count = 0;
         val = $.trim( $('#images').val() );
